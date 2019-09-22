@@ -1,0 +1,126 @@
+.mt-100 {
+	margin-top: 90px;
+}
+
+.z-index-1 {
+	z-index: 2000;
+}
+
+.z-index-0 {
+	z-index: 1000;
+}
+
+.z-index-n1 {
+	z-index: -1;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.addItem {
+	height: 40px;
+	margin: 15px;
+}
+
+.transaksi-form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.trans-sukses {
+	width: 670px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.modal {
+	display: none;
+	/* Hidden by default */
+	width: 400px;
+	position: fixed;
+	left: calc(50% - 200px);
+	/* Full width */
+	-webkit-animation-name: fadeIn;
+	/* Fade in the background */
+	-webkit-animation-duration: 0.4s;
+	animation-name: fadeIn;
+	animation-duration: 0.4s
+}
+
+.bg-japri {
+	background-image: url('http://localhost/japri-unsil/asset/img/bg-japri.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.fil {
+	fill: white;
+}
+
+.fil0 {
+	fill: #53B3C7;
+}
+
+.fil1 {
+	fill: #747474;
+}
+
+.logout {
+	cursor: pointer;
+}
+
+.btn-login {
+	background-color: #747474;
+	font-weight: bold;
+	border: none;
+}
+
+.btn-login:hover {
+	background-color: #838383;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
+
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}
+
+@keyframes slideIn {
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
+
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0
+	}
+
+	to {
+		opacity: 1
+	}
+}
